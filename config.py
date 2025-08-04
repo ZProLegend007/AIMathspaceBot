@@ -1,13 +1,14 @@
 # Configuration file for AI Mathspace Bot
 
 # OpenAI API settings
+OPENAI_API_KEY = "" # Enter your API key
 OPENAI_MODEL = "gpt-4o"
 MAX_TOKENS = 150
 TEMPERATURE = 0.1
 
 # Screenshot settings
 SCREENSHOT_FORMAT = "JPEG"
-SCREENSHOT_QUALITY = 85
+SCREENSHOT_QUALITY = 90
 
 # Timing settings (in seconds)
 STARTUP_DELAY = 3
