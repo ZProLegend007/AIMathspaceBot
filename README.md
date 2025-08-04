@@ -20,6 +20,13 @@ export OPENAI_API_KEY="your-api-key-here"
 ```
 
 ## Usage
+### Method 1: Quick Demo (No API Key Required)
+```bash
+python3 demo_handler.py
+```
+This runs a demo mode that simulates the entire process without requiring an OpenAI API key.
+
+### Method 2: Full Mode (Requires OpenAI API Key)
 1. Make sure the math question is visible on your screen
 2. Run the script:
 ```bash
@@ -27,6 +34,12 @@ python3 screenshot_handler.py
 ```
 3. The script will take a screenshot, analyze it with GPT-4, and copy the answer to your clipboard
 4. The script exits automatically after processing one question
+
+### Method 3: Using the Setup Script
+```bash
+./setup_and_run.sh
+```
+This script will check dependencies and guide you through the setup process.
 
 ## Requirements
 - Python 3.6+
